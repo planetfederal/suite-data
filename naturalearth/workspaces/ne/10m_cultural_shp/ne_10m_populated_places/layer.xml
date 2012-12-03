@@ -1,0 +1,16 @@
+<layer>
+  <name>ne_10m_populated_places</name>
+  <id>LayerInfoImpl-188a65d5:13b428df251:-7fdd</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-188a65d5:13b428df251:-7fdc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-188a65d5:13b428df251:-7fde</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

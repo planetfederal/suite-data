@@ -1,0 +1,21 @@
+<dataStore>
+  <id>DataStoreInfoImpl-188a65d5:13b428df251:-7fe9</id>
+  <name>10m_cultural_shp</name>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-188a65d5:13b428df251:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">America/Chicago</entry>
+    <entry key="fstype">shape</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:workspaces/ne/data/10m_cultural</entry>
+    <entry key="namespace">http://naturalearthdata.com</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
