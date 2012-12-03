@@ -1,0 +1,16 @@
+<layer>
+  <name>admin-5678</name>
+  <id>LayerInfoImpl-5c507e8e:13af2367206:-7c1a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5c507e8e:13af2367206:-7c25</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5c507e8e:13af2367206:-7c1b</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

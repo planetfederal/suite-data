@@ -1,0 +1,44 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-767ebb7b:13af2948d3a:-7ff9</id>
+  <name>builtup_area</name>
+  <nativeName>builtup_area</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>builtup_area</title>
+  <description>Contents of file</description>
+  <keywords>
+    <string>builtup_area</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:3395</srs>
+  <nativeBoundingBox>
+    <minx>-1.9940616765734956E7</minx>
+    <maxx>1.9864212010861725E7</maxx>
+    <miny>-6979803.136120869</miny>
+    <maxy>1.1359336056859573E7</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-179.1296081542969</minx>
+    <maxx>178.44325256347662</maxx>
+    <miny>-53.16742324828473</miny>
+    <maxy>70.99272918701169</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-767ebb7b:13af2948d3a:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

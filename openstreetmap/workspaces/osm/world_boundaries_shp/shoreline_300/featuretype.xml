@@ -1,0 +1,44 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-767ebb7b:13af2948d3a:-7ffd</id>
+  <name>shoreline_300</name>
+  <nativeName>shoreline_300</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>shoreline_300</title>
+  <description>Contents of file</description>
+  <keywords>
+    <string>features</string>
+    <string>shoreline_300</string>
+  </keywords>
+  <srs>EPSG:900913</srs>
+  <nativeBoundingBox>
+    <minx>-2.0037508E7</minx>
+    <maxx>2.0037508E7</maxx>
+    <miny>-2.0037471205137067E7</miny>
+    <maxy>1.846439066659124E7</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-179.99999692067183</minx>
+    <maxx>179.99999692067183</maxx>
+    <miny>-85.0511</miny>
+    <maxy>83.669333</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-767ebb7b:13af2948d3a:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

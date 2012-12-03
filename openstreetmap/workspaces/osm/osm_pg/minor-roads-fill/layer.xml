@@ -1,0 +1,16 @@
+<layer>
+  <name>minor-roads-fill</name>
+  <id>LayerInfoImpl-3033f51:13ad36cbc29:392c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3033f51:13ad36cbc29:3926</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3033f51:13ad36cbc29:392b</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

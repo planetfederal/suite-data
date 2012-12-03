@@ -1,0 +1,16 @@
+<layer>
+  <name>water-areas-overlay</name>
+  <id>LayerInfoImpl--56e3b4ee:13add6faa06:-64ce</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--56e3b4ee:13add6faa06:-64dc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-64cf</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

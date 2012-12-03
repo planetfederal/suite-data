@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">
+  <sld:NamedLayer>
+    <sld:Name>Default Styler</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>Default Styler</sld:Name>
+      <sld:Title/>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>aeroway</ogc:PropertyName>
+              <ogc:Literal>taxiway</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#BBBBCC</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>highway</ogc:PropertyName>
+                <ogc:Literal>platform</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>railway</ogc:PropertyName>
+                <ogc:Literal>platform</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#BBBBBB</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>aeroway</ogc:PropertyName>
+              <ogc:Literal>helipad</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>12500.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#BBBBCC</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>highway</ogc:PropertyName>
+              <ogc:Literal>living_street</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#CCCCCC</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>residential</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>unclassified</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>highway</ogc:PropertyName>
+                <ogc:Literal>service</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#FFFFFF</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>pedestrian</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>highway</ogc:PropertyName>
+                  <ogc:Literal>footway</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>highway</ogc:PropertyName>
+                <ogc:Literal>path</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#EDEDED</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>highway</ogc:PropertyName>
+              <ogc:Literal>track</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>50000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#DFCC66</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>aeroway</ogc:PropertyName>
+              <ogc:Literal>runway</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>400000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#BBBBCC</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
+

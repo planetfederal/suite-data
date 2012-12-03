@@ -1,0 +1,16 @@
+<layer>
+  <name>landuse_overlay</name>
+  <id>LayerInfoImpl--1819c94d:13ad9400e24:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1819c94d:13ad9400e24:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1819c94d:13ad9400e24:-7ffb</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

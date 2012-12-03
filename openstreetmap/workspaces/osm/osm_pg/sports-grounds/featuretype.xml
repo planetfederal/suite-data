@@ -1,0 +1,83 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-60ab</id>
+  <name>sports-grounds</name>
+  <nativeName>sports-grounds</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>sports-grounds</title>
+  <keywords>
+    <string>sports-grounds</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS84 / Google Mercator&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Mercator_1SP&quot;], 
+  PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;central_meridian&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;900913&quot;]]</nativeCRS>
+  <srs>EPSG:900913</srs>
+  <nativeBoundingBox>
+    <minx>-1.503863472E7</minx>
+    <maxx>-5864905.65</maxx>
+    <miny>5160823.58</miny>
+    <maxy>8969564.36</maxy>
+    <crs class="projected">EPSG:900913</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-135.094354212665</minx>
+    <maxx>-52.685343853139365</maxx>
+    <miny>41.998959476833285</miny>
+    <maxy>62.462138484755194</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>sports-grounds</name>
+        <sql>select osm_id, way,leisure,&#xd;
+       case when leisure=&apos;pitch&apos; then 2&#xd;
+            when leisure=&apos;track&apos; then 1&#xd;
+            else 0 end as prio&#xd;
+       from planet_osm_polygon&#xd;
+       where leisure in (&apos;sports_centre&apos;,&apos;stadium&apos;,&apos;pitch&apos;,&apos;track&apos;)&#xd;
+       order by z_order,prio,way_area desc</sql>
+        <keyColumn>osm_id</keyColumn>
+        <geometry>
+          <name>way</name>
+          <type>Polygon</type>
+          <srid>900913</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-5b22e61f:13a38d88e7d:-7fe7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

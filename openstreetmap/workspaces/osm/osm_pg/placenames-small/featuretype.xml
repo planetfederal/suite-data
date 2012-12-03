@@ -1,0 +1,79 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--754d285a:13ae6121087:-7b29</id>
+  <name>placenames-small</name>
+  <nativeName>placenames-small</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>placenames-small</title>
+  <keywords>
+    <string>features</string>
+    <string>placenames-small</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS84 / Google Mercator&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Mercator_1SP&quot;], 
+  PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;central_meridian&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;900913&quot;]]</nativeCRS>
+  <srs>EPSG:900913</srs>
+  <nativeBoundingBox>
+    <minx>-1.57190174181158E7</minx>
+    <maxx>-5859590.93908385</maxx>
+    <miny>5119384.40829622</miny>
+    <maxy>1.67450642719942E7</maxy>
+    <crs class="projected">EPSG:900913</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-141.20633598034402</minx>
+    <maxx>-52.637600992672816</maxx>
+    <miny>41.721714895221915</miny>
+    <maxy>81.71666699698328</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>placenames-small</name>
+        <sql>select osm_id, way,place,name&#xd;
+      from planet_osm_point&#xd;
+      where place in (&apos;suburb&apos;,&apos;village&apos;,&apos;large_village&apos;,&apos;hamlet&apos;,&apos;locality&apos;,&apos;isolated_dwelling&apos;,&apos;farm&apos;)</sql>
+        <keyColumn>osm_id</keyColumn>
+        <geometry>
+          <name>way</name>
+          <type>Point</type>
+          <srid>900913</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-5b22e61f:13a38d88e7d:-7fe7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

@@ -1,0 +1,16 @@
+<layer>
+  <name>placenames-large</name>
+  <id>LayerInfoImpl--754d285a:13ae6121087:-7b32</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--754d285a:13ae6121087:-7b3e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--754d285a:13ae6121087:-7b33</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,82 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1819c94d:13add047ec7:678e</id>
+  <name>roads-text-ref</name>
+  <nativeName>roads-text-ref</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>roads-text-ref</title>
+  <keywords>
+    <string>roads-text-ref</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS84 / Google Mercator&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Mercator_1SP&quot;], 
+  PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;central_meridian&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;900913&quot;]]</nativeCRS>
+  <srs>EPSG:900913</srs>
+  <nativeBoundingBox>
+    <minx>-1.57472693E7</minx>
+    <maxx>-5858154.76</maxx>
+    <miny>5118477.74</miny>
+    <maxy>1.05526501E7</maxy>
+    <crs class="projected">EPSG:900913</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-141.46012695336117</minx>
+    <maxx>-52.62469957645527</maxx>
+    <miny>41.71563548777632</miny>
+    <maxy>68.35281868895576</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>roads-text-ref</name>
+        <sql>select osm_id, way,highway,aeroway,ref,char_length(ref) as length,&#xd;
+       case when bridge in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;) then &apos;yes&apos;::text else bridge end as bridge&#xd;
+       from planet_osm_line&#xd;
+       where (highway is not null or aeroway is not null)&#xd;
+         and ref is not null&#xd;
+         and char_length(ref) between 1 and 8</sql>
+        <keyColumn>osm_id</keyColumn>
+        <geometry>
+          <name>way</name>
+          <type>LineString</type>
+          <srid>900913</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-5b22e61f:13a38d88e7d:-7fe7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

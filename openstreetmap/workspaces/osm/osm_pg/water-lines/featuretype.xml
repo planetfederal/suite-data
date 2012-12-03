@@ -1,0 +1,82 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-64bb</id>
+  <name>water-lines</name>
+  <nativeName>water-lines</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>water-lines</title>
+  <keywords>
+    <string>water-lines</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS84 / Google Mercator&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Mercator_1SP&quot;], 
+  PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;central_meridian&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;900913&quot;]]</nativeCRS>
+  <srs>EPSG:900913</srs>
+  <nativeBoundingBox>
+    <minx>-1.604181901E7</minx>
+    <maxx>-5859040.37</maxx>
+    <miny>5122714.32</miny>
+    <maxy>1.793817203E7</maxy>
+    <crs class="projected">EPSG:900913</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-144.1061120176209</minx>
+    <maxx>-52.632655146442964</maxx>
+    <miny>41.74403774000131</miny>
+    <maxy>83.12613359598679</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>water-lines</name>
+        <sql>select osm_id, way,waterway,disused,lock,name,&#xd;
+      case when tunnel in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;) then &apos;yes&apos;::text else tunnel end as tunnel&#xd;
+      from planet_osm_line&#xd;
+      where waterway in (&apos;weir&apos;,&apos;river&apos;,&apos;canal&apos;,&apos;derelict_canal&apos;,&apos;stream&apos;,&apos;drain&apos;,&apos;ditch&apos;,&apos;wadi&apos;)&#xd;
+        and (bridge is null or bridge not in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;,&apos;aqueduct&apos;))&#xd;
+      order by z_order</sql>
+        <keyColumn>osm_id</keyColumn>
+        <geometry>
+          <name>way</name>
+          <type>LineString</type>
+          <srid>900913</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-5b22e61f:13a38d88e7d:-7fe7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

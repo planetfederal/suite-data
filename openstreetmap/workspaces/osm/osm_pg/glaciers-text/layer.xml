@@ -1,0 +1,16 @@
+<layer>
+  <name>glaciers-text</name>
+  <id>LayerInfoImpl--56e3b4ee:13add6faa06:-64d5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--56e3b4ee:13add6faa06:-64dd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-64d6</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

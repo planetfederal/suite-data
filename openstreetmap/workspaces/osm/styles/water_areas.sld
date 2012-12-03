@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">
+  <sld:NamedLayer>
+    <sld:Name>Default Styler</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>Default Styler</sld:Name>
+      <sld:Title/>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:Or>
+                <ogc:Or>
+                  <ogc:Or>
+                    <ogc:Or>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>natural</ogc:PropertyName>
+                        <ogc:Literal>lake</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                      <ogc:PropertyIsEqualTo>
+                        <ogc:PropertyName>natural</ogc:PropertyName>
+                        <ogc:Literal>water</ogc:Literal>
+                      </ogc:PropertyIsEqualTo>
+                    </ogc:Or>
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>landuse</ogc:PropertyName>
+                      <ogc:Literal>reservoir</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                  </ogc:Or>
+                  <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>waterway</ogc:PropertyName>
+                    <ogc:Literal>riverbank</ogc:Literal>
+                  </ogc:PropertyIsEqualTo>
+                </ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>landuse</ogc:PropertyName>
+                  <ogc:Literal>water</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>natural</ogc:PropertyName>
+                <ogc:Literal>bay</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>1.25E7</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#B5D0D0</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>landuse</ogc:PropertyName>
+              <ogc:Literal>basin</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>6500000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#B5D0D0</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>natural</ogc:PropertyName>
+              <ogc:Literal>mud</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>100000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:GraphicFill>
+                <sld:Graphic>
+                  <sld:ExternalGraphic>
+                    <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="symbols/mud.png"/>
+                    <sld:Format>image/png</sld:Format>
+                  </sld:ExternalGraphic>
+                </sld:Graphic>
+              </sld:GraphicFill>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:Or>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>waterway</ogc:PropertyName>
+                  <ogc:Literal>dock</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>waterway</ogc:PropertyName>
+                  <ogc:Literal>mill_pond</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>waterway</ogc:PropertyName>
+                <ogc:Literal>canal</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>1500000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#B5D0D0</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>natural</ogc:PropertyName>
+              <ogc:Literal>glacier</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MinScaleDenominator>3000000.0</sld:MinScaleDenominator>
+          <sld:MaxScaleDenominator>1.25E7</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#99CCFF</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">4.0 2.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:GraphicFill>
+                <sld:Graphic>
+                  <sld:ExternalGraphic>
+                    <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="symbols/glacier.png"/>
+                    <sld:Format>image/png</sld:Format>
+                  </sld:ExternalGraphic>
+                </sld:Graphic>
+              </sld:GraphicFill>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>natural</ogc:PropertyName>
+              <ogc:Literal>land</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>750000.0</sld:MaxScaleDenominator>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:CssParameter name="fill">#F2EFE9</sld:CssParameter>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>natural</ogc:PropertyName>
+              <ogc:Literal>glacier</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:MaxScaleDenominator>3000000.0</sld:MaxScaleDenominator>
+          <sld:LineSymbolizer>
+            <sld:Stroke>
+              <sld:CssParameter name="stroke">#99CCFF</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">1.5</sld:CssParameter>
+              <sld:CssParameter name="stroke-dasharray">4.0 2.0</sld:CssParameter>
+            </sld:Stroke>
+          </sld:LineSymbolizer>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:GraphicFill>
+                <sld:Graphic>
+                  <sld:ExternalGraphic>
+                    <sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="symbols/glacier2.png"/>
+                    <sld:Format>image/png</sld:Format>
+                  </sld:ExternalGraphic>
+                </sld:Graphic>
+              </sld:GraphicFill>
+            </sld:Fill>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
+

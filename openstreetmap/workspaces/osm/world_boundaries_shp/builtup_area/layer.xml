@@ -1,0 +1,16 @@
+<layer>
+  <name>builtup_area</name>
+  <id>LayerInfoImpl-767ebb7b:13af2948d3a:-7ff8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-570e763a:13af1f792ec:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-767ebb7b:13af2948d3a:-7ff9</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

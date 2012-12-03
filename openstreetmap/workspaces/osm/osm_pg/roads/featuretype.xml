@@ -1,0 +1,62 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3033f51:13ad36cbc29:3921</id>
+  <name>roads</name>
+  <nativeName>roads</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
+  </namespace>
+  <title>roads</title>
+  <keywords>
+    <string>features</string>
+    <string>roads</string>
+  </keywords>
+  <srs>EPSG:900913</srs>
+  <nativeBoundingBox>
+    <minx>-1.57472693E7</minx>
+    <maxx>-5858154.76</maxx>
+    <miny>5158725.26</miny>
+    <maxy>1.214987355E7</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-141.46012695336117</minx>
+    <maxx>-52.62469957645527</maxx>
+    <miny>41.98494977585635</miny>
+    <maxy>73.06918899186422</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>roads</name>
+        <sql>select osm_id, way,highway,&#xd;
+       case when tunnel in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;) then &apos;yes&apos;::text else tunnel end as tunnel,&#xd;
+       case when railway=&apos;preserved&apos; and service in (&apos;spur&apos;,&apos;siding&apos;,&apos;yard&apos;) then &apos;INT-preserved-ssy&apos;::text else railway end as railway&#xd;
+       from planet_osm_roads&#xd;
+       where highway is not null&#xd;
+          or (railway is not null and railway!=&apos;preserved&apos; and (service is null or service not in (&apos;spur&apos;,&apos;siding&apos;,&apos;yard&apos;)))&#xd;
+          or railway=&apos;preserved&apos;&#xd;
+       order by z_order</sql>
+        <keyColumn>osm_id</keyColumn>
+        <geometry>
+          <name>way</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-5b22e61f:13a38d88e7d:-7fe7</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
