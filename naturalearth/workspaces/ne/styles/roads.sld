@@ -7,11 +7,11 @@
       <ogc:Filter>
         <ogc:Or>
           <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>TYPE</ogc:PropertyName>
+            <ogc:PropertyName>type</ogc:PropertyName>
             <ogc:Literal>Freeway</ogc:Literal>
           </ogc:PropertyIsEqualTo>
           <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>TYPE</ogc:PropertyName>
+            <ogc:PropertyName>type</ogc:PropertyName>
             <ogc:Literal>Primary</ogc:Literal>
           </ogc:PropertyIsEqualTo>
         </ogc:Or>
@@ -28,11 +28,11 @@
       <ogc:Filter>
         <ogc:Or>
           <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>TYPE</ogc:PropertyName>
+            <ogc:PropertyName>type</ogc:PropertyName>
             <ogc:Literal>Freeway</ogc:Literal>
           </ogc:PropertyIsEqualTo>
           <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>TYPE</ogc:PropertyName>
+            <ogc:PropertyName>type</ogc:PropertyName>
             <ogc:Literal>Primary</ogc:Literal>
           </ogc:PropertyIsEqualTo>
         </ogc:Or>
@@ -50,11 +50,11 @@
         <ogc:Not>
           <ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TYPE</ogc:PropertyName>
+              <ogc:PropertyName>type</ogc:PropertyName>
               <ogc:Literal>Freeway</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>TYPE</ogc:PropertyName>
+              <ogc:PropertyName>type</ogc:PropertyName>
               <ogc:Literal>Primary</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Or>

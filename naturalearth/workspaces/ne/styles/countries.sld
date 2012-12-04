@@ -15,7 +15,7 @@
       <sld:MinScaleDenominator>1.5E7</sld:MinScaleDenominator>
       <sld:TextSymbolizer>
         <sld:Label>
-          <ogc:PropertyName>NAME</ogc:PropertyName>
+          <ogc:PropertyName>name</ogc:PropertyName>
         </sld:Label>
         <sld:Font>
           <sld:CssParameter name="font-family">DejaVuSans</sld:CssParameter>
@@ -32,7 +32,7 @@
       <sld:MinScaleDenominator>4.0E7</sld:MinScaleDenominator>
       <sld:TextSymbolizer>
         <sld:Label>
-          <ogc:PropertyName>NAME</ogc:PropertyName>
+          <ogc:PropertyName>name</ogc:PropertyName>
         </sld:Label>
         <sld:Font>
           <sld:CssParameter name="font-family">DejaVuSans</sld:CssParameter>
