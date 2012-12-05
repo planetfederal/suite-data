@@ -1,0 +1,17 @@
+Run db_import.sh on the database server. The script should be run as the
+postgres user or with the PGPASSWORD environment variable set to the postgres
+user's password so that the database can be set up correctly.
+
+The shp2pgsql command must be in the current PATH.
+
+The following additional environment variables can be set: 
+DBNAME=the name of the database (default "naturalearth") 
+DBUSER=the owner of the naturalearth database (default "opengeo") 
+DBPASS=the password for the owner (default "opengeo78902")
+
+The geoserver_data directory contains a workspace "ne_pg" that should be copied
+directly into the GeoServer workspace directory. If the database is not hosted
+on the same machine as GeoServer, the store will need configuring to point to
+the correct source. Other parameters, such as the user name and password may
+also need changing. The setup.sh script should be run in the root data_dir to
+ensure that the correct fonts are available. 

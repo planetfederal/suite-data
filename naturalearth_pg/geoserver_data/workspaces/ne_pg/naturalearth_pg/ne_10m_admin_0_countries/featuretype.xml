@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--19cd5325:13b6d07c040:-7ff9</id>
+  <name>ne_10m_admin_0_countries</name>
+  <nativeName>ne_10m_admin_0_countries</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-4586ccf8:13b6cdbae78:-7fff</id>
+  </namespace>
+  <title>ne_10m_admin_0_countries</title>
+  <keywords>
+    <string>ne_10m_admin_0_countries</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.000015258789</maxx>
+    <miny>-75.6918869018555</miny>
+    <maxy>83.6341018676758</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.000015258789</maxx>
+    <miny>-75.6918869018555</miny>
+    <maxy>83.6341018676758</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--19cd5325:13b6d07c040:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

@@ -1,0 +1,60 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--19cd5325:13b6d07c040:-7fe7</id>
+  <name>naturalearth</name>
+  <workspace>
+    <id>WorkspaceInfoImpl-4586ccf8:13b6cdbae78:-8000</id>
+  </workspace>
+  <layers>
+    <layer>
+      <id>LayerInfoImpl--19cd5325:13b6d07c040:-7ff8</id>
+    </layer>
+    <layer>
+      <id>LayerInfoImpl--19cd5325:13b6d07c040:-7ffc</id>
+    </layer>
+    <layer>
+      <id>LayerInfoImpl--19cd5325:13b6d07c040:-7ff4</id>
+    </layer>
+    <layer>
+      <id>LayerInfoImpl--19cd5325:13b6d07c040:-7fe8</id>
+    </layer>
+    <layer>
+      <id>LayerInfoImpl--19cd5325:13b6d07c040:-7ff0</id>
+    </layer>
+    <layer>
+      <id>LayerInfoImpl--19cd5325:13b6d07c040:-7fec</id>
+    </layer>
+  </layers>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-4586ccf8:13b6cdbae78:-7fe4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4586ccf8:13b6cdbae78:-7fd4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4586ccf8:13b6cdbae78:-7fd9</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--4d2d93b7:13b4425088e:-7f4e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--4d2d93b7:13b4425088e:-7f4e</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4586ccf8:13b6cdbae78:-7fdc</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-180.0</minx>
+    <maxx>180.000015258789</maxx>
+    <miny>-75.6918869018555</miny>
+    <maxy>83.6341018676758</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </bounds>
+</layerGroup>

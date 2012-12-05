@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--19cd5325:13b6d07c040:-7ff5</id>
+  <name>ne_10m_admin_1_states_provinces_lines_shp</name>
+  <nativeName>ne_10m_admin_1_states_provinces_lines_shp</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-4586ccf8:13b6cdbae78:-7fff</id>
+  </namespace>
+  <title>ne_10m_admin_1_states_provinces_lines_shp</title>
+  <keywords>
+    <string>ne_10m_admin_1_states_provinces_lines_shp</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-139.060211181641</minx>
+    <maxx>178.448623657227</maxx>
+    <miny>-46.6180152893066</miny>
+    <maxy>81.128532409668</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-139.060211181641</minx>
+    <maxx>178.448623657227</maxx>
+    <miny>-46.6180152893066</miny>
+    <maxy>81.128532409668</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--19cd5325:13b6d07c040:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

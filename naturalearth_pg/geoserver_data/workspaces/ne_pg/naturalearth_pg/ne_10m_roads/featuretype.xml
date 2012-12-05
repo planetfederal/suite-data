@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--19cd5325:13b6d07c040:-7ff1</id>
+  <name>ne_10m_roads</name>
+  <nativeName>ne_10m_roads</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-4586ccf8:13b6cdbae78:-7fff</id>
+  </namespace>
+  <title>ne_10m_roads</title>
+  <keywords>
+    <string>ne_10m_roads</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-162.708511352539</minx>
+    <maxx>177.906051635742</maxx>
+    <miny>-47.0079727172852</miny>
+    <maxy>71.1776885986328</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-162.708511352539</minx>
+    <maxx>177.906051635742</maxx>
+    <miny>-47.0079727172852</miny>
+    <maxy>71.1776885986328</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--19cd5325:13b6d07c040:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
