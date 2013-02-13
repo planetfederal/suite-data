@@ -1,0 +1,16 @@
+<layer>
+  <name>NE1_HR_LC_SR_W_DR</name>
+  <id>LayerInfoImpl-93ed77b:13cd06842b3:-7fe4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-93ed77b:13cd06842b3:-7ffd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-93ed77b:13cd06842b3:-7fe5</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
