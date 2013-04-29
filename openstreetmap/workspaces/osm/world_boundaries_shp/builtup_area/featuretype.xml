@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>builtup_area</title>
+  <title>Urban Areas</title>
   <description>Contents of file</description>
+  <abstract>Urban or &quot;built-up&quot; regions.</abstract>
   <keywords>
     <string>builtup_area</string>
     <string>features</string>

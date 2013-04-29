@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>placenames-large</title>
+  <title>Countries and States</title>
+  <abstract>Large scale place names for countries and states.</abstract>
   <keywords>
     <string>features</string>
     <string>placenames-large</string>

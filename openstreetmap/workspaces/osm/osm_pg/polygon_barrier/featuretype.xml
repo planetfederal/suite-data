@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>polygon_barrier</title>
+  <title>Barriers</title>
+  <abstract>On the ground physical structures that block or impede movement.</abstract>
   <keywords>
     <string>features</string>
     <string>polygon_barrier</string>

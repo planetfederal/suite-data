@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>placenames-medium</title>
+  <title>Cities</title>
+  <abstract>Medium scale place names for cities and towns.</abstract>
   <keywords>
     <string>features</string>
     <string>placenames-medium</string>

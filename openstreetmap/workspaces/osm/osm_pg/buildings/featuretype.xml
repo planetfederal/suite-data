@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>buildings</title>
+  <title>Buildings</title>
+  <abstract>Residential buildings.</abstract>
   <keywords>
     <string>buildings</string>
     <string>features</string>

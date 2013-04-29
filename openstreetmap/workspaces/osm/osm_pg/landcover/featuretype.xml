@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>landcover</title>
+  <title>Landcover</title>
+  <abstract>Area land cover features representing physical material of the earth such as grass, trees, and water.</abstract>
   <keywords>
     <string>landcover</string>
     <string>features</string>

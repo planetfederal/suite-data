@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>water-lines-casing</title>
+  <title>Water Line Casing</title>
+  <abstract>Linear water feature case lines.</abstract>
   <keywords>
     <string>features</string>
     <string>water-lines-casing</string>

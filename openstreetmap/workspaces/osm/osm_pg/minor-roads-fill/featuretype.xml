@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>minor-roads-fill</title>
+  <title>Minor Road Fill</title>
+  <abstract>Fill lines for minor roads.</abstract>
   <keywords>
     <string>features</string>
     <string>minor-roads-fill</string>

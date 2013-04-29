@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>ne_10m_populated_places</title>
+  <title>Populated Places</title>
   <description>Contents of file</description>
+  <abstract>Natural Earth 1:10m populated places.</abstract>
   <keywords>
     <string>ne_10m_populated_places</string>
     <string>features</string>

@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>roads-text-ref</title>
+  <title>Road Reference Names</title>
+  <abstract>Reference names for highways, exists, routes, etc...</abstract>
   <keywords>
     <string>roads-text-ref</string>
     <string>features</string>

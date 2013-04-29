@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>glaciers-text</title>
+  <title>Glaciers</title>
+  <abstract>Glacier names.</abstract>
   <keywords>
     <string>glaciers-text</string>
     <string>features</string>

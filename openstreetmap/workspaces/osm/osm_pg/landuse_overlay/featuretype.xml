@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>landuse_overlay</title>
+  <title>Landuse</title>
+  <abstract>Human uses of land including military and nature reserves.</abstract>
   <keywords>
     <string>landuse_overlay</string>
     <string>features</string>

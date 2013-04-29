@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>highway-area-casing</title>
+  <title>Highway Casing</title>
+  <abstract>Highway case lines.</abstract>
   <keywords>
     <string>highway-area-casing</string>
     <string>features</string>

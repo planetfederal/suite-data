@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>roads-text-name</title>
+  <title>Road Names</title>
+  <abstract>Road names.</abstract>
   <keywords>
     <string>features</string>
     <string>roads-text-name</string>

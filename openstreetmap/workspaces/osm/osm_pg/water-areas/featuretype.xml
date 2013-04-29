@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>water-areas</title>
+  <title>Water Area</title>
+  <abstract>Area water features such as lakes, reservoir, and basins.</abstract>
   <keywords>
     <string>water-areas</string>
     <string>features</string>

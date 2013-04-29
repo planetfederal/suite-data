@@ -1,6 +1,8 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-767ebb7b:13af2948d3a:-7feb</id>
   <name>osm</name>
+  <title>OpenStreetMap Base Map</title>
+  <abstractTxt>Base map inspired by http://www.openstreetmap.org. The styles for this map were derived from https://github.com/openstreetmap/mapnik-stylesheets.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-5b22e61f:13a38d88e7d:-7feb</id>
   </workspace>

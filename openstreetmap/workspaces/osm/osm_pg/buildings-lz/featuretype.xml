@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>buildings-lz</title>
+  <title>Buildings</title>
+  <abstract>Non-residential buildings including supermarkets, places of worship, and railway stations.</abstract>
   <keywords>
     <string>buildings-lz</string>
     <string>features</string>

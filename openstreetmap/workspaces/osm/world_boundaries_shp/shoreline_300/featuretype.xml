@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>shoreline_300</title>
+  <title>World</title>
   <description>Contents of file</description>
+  <abstract>World polygons.</abstract>
   <keywords>
     <string>features</string>
     <string>shoreline_300</string>

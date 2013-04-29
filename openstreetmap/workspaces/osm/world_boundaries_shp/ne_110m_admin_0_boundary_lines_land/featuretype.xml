@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>ne_110m_admin_0_boundary_lines_land</title>
+  <title>Land Boundaries</title>
   <description>Contents of file</description>
+  <abstract>Natural Earth 1:100m land boundary lines.</abstract>
   <keywords>
     <string>ne_110m_admin_0_boundary_lines_land</string>
     <string>features</string>

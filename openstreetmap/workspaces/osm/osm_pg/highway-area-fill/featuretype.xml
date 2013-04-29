@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>highway-area-fill</title>
+  <title>Highway Fill</title>
+  <abstract>Fill lines for highways.</abstract>
   <keywords>
     <string>highway-area-fill</string>
     <string>features</string>

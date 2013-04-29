@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>admin-01234</title>
+  <title>National Administrative Boundaries</title>
+  <abstract>Administrative boundary levels 0 through 4 including national borders as well as provincial/state boundaries.</abstract>
   <keywords>
     <string>admin-01234</string>
     <string>features</string>

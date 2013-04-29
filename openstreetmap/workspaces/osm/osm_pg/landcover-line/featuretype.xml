@@ -5,7 +5,8 @@
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>landcover-line</title>
+  <title>Cutlines</title>
+  <abstract>Forest cut lines.</abstract>
   <keywords>
     <string>landcover-line</string>
     <string>features</string>
