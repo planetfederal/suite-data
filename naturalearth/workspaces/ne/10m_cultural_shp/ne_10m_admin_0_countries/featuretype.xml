@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-188a65d5:13b428df251:-7fff</id>
   </namespace>
-  <title>ne_10m_admin_0_countries</title>
+  <title>Countries</title>
   <description>Contents of file</description>
+  <abstract>The 247 countries in the world.</abstract>
   <keywords>
     <string>ne_10m_admin_0_countries</string>
     <string>features</string>

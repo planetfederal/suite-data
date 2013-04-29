@@ -5,8 +5,9 @@
   <namespace>
     <id>NamespaceInfoImpl-188a65d5:13b428df251:-7fff</id>
   </namespace>
-  <title>ne_10m_admin_0_boundary_lines_land</title>
+  <title>Country Boundary Lines</title>
   <description>Contents of file</description>
+  <abstract>Country boundaries on land and offshore.</abstract>
   <keywords>
     <string>ne_10m_admin_0_boundary_lines_land</string>
     <string>features</string>
