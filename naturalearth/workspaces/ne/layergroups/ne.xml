@@ -1,6 +1,8 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-188a65d5:13b428df251:-7fdf</id>
   <name>ne</name>
+  <title>Natural Earth Base Map</title>
+  <abstractTxt>Base map composed of data from http://www.naturalearthdata.com.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-188a65d5:13b428df251:-8000</id>
   </workspace>
