@@ -3,7 +3,7 @@ CREATE INDEX planet_osm_point_capital_idx ON planet_osm_point ( capital );
 
 CREATE INDEX planet_osm_polygon_waterway_idx ON planet_osm_polygon ( waterway );
 CREATE INDEX planet_osm_polygon_tourism_idx ON planet_osm_polygon ( tourism );
-CREATE INDEX planet_osm_polygon_natural_idx ON planet_osm_polygon ( natural );
+CREATE INDEX planet_osm_polygon_natural_idx ON planet_osm_polygon ( "natural" );
 CREATE INDEX planet_osm_polygon_leisure_idx ON planet_osm_polygon ( leisure );
 CREATE INDEX planet_osm_polygon_landuse_idx ON planet_osm_polygon ( landuse );
 CREATE INDEX planet_osm_polygon_highway_idx ON planet_osm_polygon ( highway );
