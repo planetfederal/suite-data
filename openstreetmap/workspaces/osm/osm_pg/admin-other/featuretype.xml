@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-5c507e8e:13af2367206:-7c16</id>
-  <name>admin-other</name>
-  <nativeName>admin-other</nativeName>
+  <name>admin_other</name>
+  <nativeName>admin_other</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>admin-other</name>
+        <name>admin_other</name>
         <sql>select osm_id, way,admin_level&#xd;
        from planet_osm_roads&#xd;
        where &quot;boundary&quot;=&apos;administrative&apos;&#xd;

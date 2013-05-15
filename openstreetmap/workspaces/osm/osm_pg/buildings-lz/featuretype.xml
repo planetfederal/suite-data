@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-5fba</id>
-  <name>buildings-lz</name>
-  <nativeName>buildings-lz</nativeName>
+  <name>buildings_lz</name>
+  <nativeName>buildings_lz</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>buildings-lz</name>
+        <name>buildings_lz</name>
         <sql>select osm_id, way,building,railway,amenity from planet_osm_polygon&#xd;
        where railway=&apos;station&apos;&#xd;
           or building in (&apos;station&apos;,&apos;supermarket&apos;)&#xd;

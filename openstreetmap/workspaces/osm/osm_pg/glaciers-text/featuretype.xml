@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-64d6</id>
-  <name>glaciers-text</name>
-  <nativeName>glaciers-text</nativeName>
+  <name>glaciers_text</name>
+  <nativeName>glaciers_text</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>glaciers-text</name>
+        <name>glaciers_text</name>
         <sql>select osm_id, way,name,way_area&#xd;
       from planet_osm_polygon&#xd;
       where &quot;natural&quot;=&apos;glacier&apos; and building is null&#xd;

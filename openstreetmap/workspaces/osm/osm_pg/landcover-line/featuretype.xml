@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-60a6</id>
-  <name>landcover-line</name>
-  <nativeName>landcover-line</nativeName>
+  <name>landcover_line</name>
+  <nativeName>landcover_line</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>landcover-line</name>
+        <name>landcover_line</name>
         <sql>select osm_id, way&#xd;
        from planet_osm_line&#xd;
        where man_made=&apos;cutline&apos;</sql>

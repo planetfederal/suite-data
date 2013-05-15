@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-64bb</id>
-  <name>water-lines</name>
-  <nativeName>water-lines</nativeName>
+  <name>water_lines</name>
+  <nativeName>water_lines</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>water-lines</name>
+        <name>water_lines</name>
         <sql>select osm_id, way,waterway,disused,lock,name,&#xd;
       case when tunnel in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;) then &apos;yes&apos;::text else tunnel end as tunnel&#xd;
       from planet_osm_line&#xd;

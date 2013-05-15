@@ -9,22 +9,22 @@
   <connectionParameters>
     <entry key="Connection timeout">20</entry>
     <entry key="port">5432</entry>
-    <entry key="passwd">crypt1:6xTo7LBaDd368fN2bdB7bhY/jSlkeGP4</entry>
+    <entry key="passwd">crypt1:vODhmdT7dCDcXP7SVwTwgW7UsOkHHT6s</entry>
     <entry key="dbtype">postgis</entry>
-    <entry key="host">10.32.180.122</entry>
+    <entry key="host">10.0.1.1</entry>
     <entry key="validate connections">true</entry>
     <entry key="encode functions">false</entry>
     <entry key="max connections">20</entry>
-    <entry key="database">planetosm</entry>
+    <entry key="database">osm</entry>
     <entry key="namespace">http://openstreemap.org</entry>
     <entry key="schema">public</entry>
     <entry key="Loose bbox">true</entry>
     <entry key="Expose primary keys">false</entry>
-    <entry key="fetch size">2500</entry>
     <entry key="Max open prepared statements">50</entry>
+    <entry key="fetch size">2500</entry>
     <entry key="preparedStatements">false</entry>
     <entry key="Estimated extends">true</entry>
-    <entry key="user">opengeo</entry>
+    <entry key="user">jdeolive</entry>
     <entry key="min connections">4</entry>
   </connectionParameters>
   <__default>false</__default>

@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-3033f51:13ad36cbc29:392b</id>
-  <name>minor-roads-fill</name>
-  <nativeName>minor-roads-fill</nativeName>
+  <name>minor_roads_fill</name>
+  <nativeName>minor_roads_fill</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>minor-roads-fill</name>
+        <name>minor_roads_fill</name>
         <sql>select osm_id, way,highway,horse,bicycle,foot,construction,aeroway,&#xd;
        case when tunnel in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;) then &apos;yes&apos;::text else tunnel end as tunnel,&#xd;
        case when bridge in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;,&apos;viaduct&apos;) then &apos;yes&apos;::text else bridge end as bridge,&#xd;

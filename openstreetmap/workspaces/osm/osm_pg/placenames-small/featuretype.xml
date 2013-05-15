@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl--754d285a:13ae6121087:-7b29</id>
-  <name>placenames-small</name>
-  <nativeName>placenames-small</nativeName>
+  <name>placenames_small</name>
+  <nativeName>placenames_small</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
-  <title>Villages</title>
+  <title>placenames-small</title>
   <abstract>Small scale place names for villages and suburbs.</abstract>
   <keywords>
     <string>features</string>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>placenames-small</name>
+        <name>placenames_small</name>
         <sql>select osm_id, way,place,name&#xd;
       from planet_osm_point&#xd;
       where place in (&apos;suburb&apos;,&apos;village&apos;,&apos;large_village&apos;,&apos;hamlet&apos;,&apos;locality&apos;,&apos;isolated_dwelling&apos;,&apos;farm&apos;)</sql>

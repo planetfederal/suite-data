@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--56e3b4ee:13add6faa06:-64cf</id>
-  <name>water-areas-overlay</name>
-  <nativeName>water-areas-overlay</nativeName>
+  <name>water_areas_overlay</name>
+  <nativeName>water_areas_overlay</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>water-areas-overlay</name>
+        <name>water_areas_overlay</name>
         <sql>select osm_id, way,&quot;natural&quot;&#xd;
       from planet_osm_polygon&#xd;
       where &quot;natural&quot; in (&apos;marsh&apos;,&apos;wetland&apos;) and building is null&#xd;

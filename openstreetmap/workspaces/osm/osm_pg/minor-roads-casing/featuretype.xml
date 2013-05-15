@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-3033f51:13ad36cbc29:3927</id>
-  <name>minor-roads-casing</name>
-  <nativeName>minor-roads-casing</nativeName>
+  <name>minor_roads_casing</name>
+  <nativeName>minor_roads_casing</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>minor-roads-casing</name>
+        <name>minor_roads_casing</name>
         <sql>select osm_id, way,highway,&#xd;
        case when tunnel in (&apos;yes&apos;,&apos;true&apos;,&apos;1&apos;) then &apos;yes&apos;::text else &apos;no&apos; end as tunnel,&#xd;
        case when service in (&apos;parking_aisle&apos;,&apos;drive-through&apos;,&apos;driveway&apos;) then &apos;INT-minor&apos;::text else service end as service&#xd;

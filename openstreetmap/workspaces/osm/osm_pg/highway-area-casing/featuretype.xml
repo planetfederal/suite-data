@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl-3033f51:13ad36cbc29:3935</id>
-  <name>highway-area-casing</name>
-  <nativeName>highway-area-casing</nativeName>
+  <name>highway_area_casing</name>
+  <nativeName>highway_area_casing</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>highway-area-casing</name>
+        <name>highway_area_casing</name>
         <sql>select osm_id, way,highway,railway from planet_osm_polygon&#xd;
        where highway in (&apos;residential&apos;,&apos;unclassified&apos;,&apos;pedestrian&apos;,&apos;service&apos;,&apos;footway&apos;,&apos;track&apos;,&apos;path&apos;,&apos;platform&apos;)&#xd;
           or railway=&apos;platform&apos;&#xd;

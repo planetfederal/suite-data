@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--1819c94d:13ad9400e24:-7ff0</id>
-  <name>roads-text-ref-low-zoom</name>
-  <nativeName>roads-text-ref-low-zoom</nativeName>
+  <name>roads_text_ref_low_zoom</name>
+  <nativeName>roads_text_ref_low_zoom</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>roads-text-ref-low-zoom</name>
+        <name>roads_text_ref_low_zoom</name>
         <sql>select osm_id, way,highway,ref,char_length(ref) as length&#xd;
        from planet_osm_roads&#xd;
        where highway in (&apos;motorway&apos;,&apos;trunk&apos;,&apos;primary&apos;,&apos;secondary&apos;)&#xd;

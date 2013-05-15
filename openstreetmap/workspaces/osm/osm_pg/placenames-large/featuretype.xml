@@ -1,7 +1,7 @@
 <featureType>
   <id>FeatureTypeInfoImpl--754d285a:13ae6121087:-7b33</id>
-  <name>placenames-large</name>
-  <nativeName>placenames-large</nativeName>
+  <name>placenames_large</name>
+  <nativeName>placenames_large</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5b22e61f:13a38d88e7d:-7fea</id>
   </namespace>
@@ -55,11 +55,12 @@
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>true</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
-        <name>placenames-large</name>
+        <name>placenames_large</name>
         <sql>select osm_id, way,place,name,ref&#xd;
        from planet_osm_point&#xd;
        where place in (&apos;country&apos;,&apos;state&apos;)</sql>
