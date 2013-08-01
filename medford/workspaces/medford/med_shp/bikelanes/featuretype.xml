@@ -1,0 +1,82 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-a0db44c:124543f2e8b:-8000</id>
+  <name>bikelanes</name>
+  <nativeName>bikelanes</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--5a410816:122666d6979:-7fa4</id>
+  </namespace>
+  <title>Medford, OR - Bike Lanes</title>
+  <abstract>Bike lanes in Jackson County, Oregon as of December 2008.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-122.946</minx>
+    <maxx>-122.762</maxx>
+    <miny>42.256</miny>
+    <maxy>42.415</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-122.946</minx>
+    <maxx>-122.762</maxx>
+    <miny>42.256</miny>
+    <maxy>42.415</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--5a410816:122666d6979:-7faa</id>
+  </store>
+  <attributes>
+    <attribute>
+      <name>the_geom</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>streetname</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>lane_type</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>stage</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>bike_plan</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>len</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+  </attributes>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

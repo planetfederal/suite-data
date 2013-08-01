@@ -1,0 +1,15 @@
+<layer>
+  <name>taxlots</name>
+  <id>LayerInfoImpl--2ef2fd67:128feac6951:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--2ef2fd67:128feac6951:-7ff7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--2ef2fd67:128feac6951:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

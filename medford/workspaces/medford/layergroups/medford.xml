@@ -1,0 +1,87 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-343ce66e:1227f3ffd84:-7fe7</id>
+  <name>medford</name>
+  <mode>SINGLE</mode>
+  <title>Medford, OR</title>
+  <abstractTxt>Spatial data courtesy of the City of Medford, Oregon &lt;http://www.ci.medford.or.us/&gt; and the Jackson County Geographic Information System (GIS) Services &lt;http://www.smartmap.org/&gt;.</abstractTxt>
+  <workspace>
+    <id>WorkspaceInfoImpl--5a410816:122666d6979:-7fa5</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--697fa281:124492b3577:-7fff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--613bfb00:12420345d1c:-7ffb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--613bfb00:12420345d1c:-7ffd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--5a410816:122666d6979:-7f9a</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--5a410816:122666d6979:-7f9e</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--1a3a421a:124115f81c9:-7fff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--13dee2dd:1240e0c1495:-7fff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-73694428:1241d753136:-7fff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-5405b9f3:12434822068:-7fff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--64ed6da6:1242ce836f0:-7fff</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--7da785e8:12412d72961:-7fff</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-6f3963bd:12c1d23e532:-7ffd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5a410816:122666d6979:-7fa8</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5a410816:122666d6979:-7fa9</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5a410816:122666d6979:-7f99</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5a410816:122666d6979:-7fa7</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--5a410816:122666d6979:-7fa6</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7c33e214:12411f83685:-7ffe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-73694428:1241d753136:-7ffe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-5405b9f3:12434822068:-7ffe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--64ed6da6:1242ce836f0:-7ffe</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--7da785e8:12412d72961:-7ffe</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-122.911</minx>
+    <maxx>-122.787</maxx>
+    <miny>42.291</miny>
+    <maxy>42.398</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

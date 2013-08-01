@@ -1,0 +1,14 @@
+<dataStore>
+  <id>DataStoreInfoImpl--5a410816:122666d6979:-7faa</id>
+  <name>med_shp</name>
+  <description>Medford Shapefiles</description>
+  <type>Directory of spatial files</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--5a410816:122666d6979:-7fa5</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://medford.opengeo.org</entry>
+    <entry key="url">file:workspaces/medford/data</entry>
+  </connectionParameters>
+</dataStore>

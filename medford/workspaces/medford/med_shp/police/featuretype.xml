@@ -1,0 +1,42 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-1bb97c81:12a23a4ab7f:-8000</id>
+  <name>police</name>
+  <nativeName>police</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--5a410816:122666d6979:-7fa4</id>
+  </namespace>
+  <title>Medford, OR - Police</title>
+  <abstract>Location of Police Stations in Jackson County, OR as April 2009.</abstract>
+  <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
+  DATUM[&quot;D_WGS_1984&quot;, 
+    SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-122.967</minx>
+    <maxx>-122.778</maxx>
+    <miny>42.239</miny>
+    <maxy>42.43</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-122.967</minx>
+    <maxx>-122.778</maxx>
+    <miny>42.239</miny>
+    <maxy>42.43</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--5a410816:122666d6979:-7faa</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

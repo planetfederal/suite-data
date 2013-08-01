@@ -1,0 +1,16 @@
+<layer>
+  <name>streets</name>
+  <id>LayerInfoImpl--1a3a421a:124115f81c9:-7fff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5a410816:122666d6979:-7fa6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1a3a421a:124115f81c9:-8000</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

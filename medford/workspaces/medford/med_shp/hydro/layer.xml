@@ -1,0 +1,16 @@
+<layer>
+  <name>hydro</name>
+  <id>LayerInfoImpl--13dee2dd:1240e0c1495:-7fff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7c33e214:12411f83685:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--13dee2dd:1240e0c1495:-8000</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

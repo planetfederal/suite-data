@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--418d4a17:1244923323b:-7ffb</id>
+  <name>dem_tiff</name>
+  <description>Medford Digital Elevation Model</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--5a410816:122666d6979:-7fa5</id>
+  </workspace>
+  <url>file:workspaces/medford/data/dem.tif</url>
+</coverageStore>

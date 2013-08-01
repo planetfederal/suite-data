@@ -1,0 +1,60 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--613bfb00:12420345d1c:-7ffc</id>
+  <name>citylimits</name>
+  <nativeName>citylimits</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--5a410816:122666d6979:-7fa4</id>
+  </namespace>
+  <title>Medford, OR - City Limits</title>
+  <abstract>Local Jurisdiction of Medford, Oregon as of July 2009.</abstract>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-122.911</minx>
+    <maxx>-122.777</maxx>
+    <miny>42.289</miny>
+    <maxy>42.398</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-122.911</minx>
+    <maxx>-122.777</maxx>
+    <miny>42.289</miny>
+    <maxy>42.398</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--5a410816:122666d6979:-7faa</id>
+  </store>
+  <attributes>
+    <attribute>
+      <name>the_geom</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>acres</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>perimeter</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+    <attribute>
+      <name>area</name>
+      <minOccurs>0</minOccurs>
+      <maxOccurs>1</maxOccurs>
+      <nillable>true</nillable>
+    </attribute>
+  </attributes>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
