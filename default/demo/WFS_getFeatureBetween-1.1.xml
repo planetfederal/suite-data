@@ -1,0 +1,25 @@
+<!-- Performs a between filter to find the states with an area
+     between 100,000 and 150,000.
+     Also, it just returns the NAME10, ALAND10, and geometry 
+     (instead of all the attributes).  -->
+<wfs:GetFeature service="WFS" version="1.1.0"
+  xmlns:usa="http://census.gov"
+  xmlns:wfs="http://www.opengis.net/wfs"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:gml="http://www.opengis.net/gml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/wfs
+                      http://schemas.opengis.net/wfs/1.1.0/wfs.xsd">
+  <wfs:Query typeName="usa:states">
+  <wfs:PropertyName>usa:NAME10</wfs:PropertyName> 
+  <wfs:PropertyName>usa:ALAND10</wfs:PropertyName> 
+  <wfs:PropertyName>usa:the_geom</wfs:PropertyName> 
+<ogc:Filter>
+<ogc:PropertyIsBetween>
+<ogc:PropertyName>usa:ALAND10</ogc:PropertyName>
+<ogc:LowerBoundary><ogc:Literal>1E11</ogc:Literal></ogc:LowerBoundary>
+<ogc:UpperBoundary><ogc:Literal>1.5E11</ogc:Literal></ogc:UpperBoundary>
+</ogc:PropertyIsBetween>
+</ogc:Filter>
+  </wfs:Query>
+</wfs:GetFeature> 

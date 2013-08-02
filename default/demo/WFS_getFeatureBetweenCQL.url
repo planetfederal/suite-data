@@ -1,0 +1,1 @@
+wfs?request=GetFeature&typeName=usa:states&propertyName=NAME10,ALAND10,the_geom&CQL_FILTER=ALAND10%20BETWEEN%201E11%20AND%201.5E11&version=1.0.0

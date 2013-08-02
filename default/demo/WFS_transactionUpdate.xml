@@ -1,0 +1,27 @@
+ <!--  
+    This request updates the STUSPS10 field for the usa:states dataset.
+
+    WARNING: THIS QUERY MODIFIES DATA
+    It has been disabled to prevent accidental data loss.
+    To enable it, delete 'REMOVE_' from the layer name.
+
+   -->
+<wfs:Transaction service="WFS" version="1.0.0"
+  xmlns:usa="http://census.gov"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:wfs="http://www.opengis.net/wfs">
+  <wfs:Update typeName="usa:REMOVE_states">
+    <wfs:Property>
+      <wfs:Name>STUSPS10</wfs:Name>
+      <wfs:Value>XX</wfs:Value>
+    </wfs:Property>
+    <ogc:Filter>
+    <ogc:Filter>
+      <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>STUSPS10</ogc:PropertyName>
+        <ogc:Literal>WA</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    </ogc:Filter>
+     </ogc:Filter>
+  </wfs:Update>
+</wfs:Transaction>

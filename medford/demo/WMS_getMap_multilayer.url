@@ -1,0 +1,1 @@
+wms?request=GetMap&layers=medford:zoning,medford:schools&styles=,&bbox=-122.9,42.31,-122.85,42.36&Format=image/png&width=500&height=500&srs=EPSG:4326

@@ -1,0 +1,33 @@
+<!--
+    This request inserts a record into the usa:states dataset.
+    
+    WARNING: THIS QUERY MODIFIES DATA
+    It has been disabled to prevent accidental data loss.
+    To enable it, delete 'REMOVE_' from the namespace URI.
+       
+  -->
+<wfs:Transaction service="WFS" version="1.0.0"
+  xmlns:wfs="http://www.opengis.net/wfs"
+  xmlns:usa="http://REMOVE_census.gov"
+  xmlns:gml="http://www.opengis.net/gml">
+  <wfs:Insert>
+    <usa:states>
+      <usa:the_geom>
+        <gml:MultiPolygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+          <gml:polygonMember>
+            <gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+              <gml:outerBoundaryIs>
+                <gml:LinearRing>
+                  <gml:coordinates decimal="." cs="," ts=" ">-69.0,31.0 -69.0,30.0 -70.0,30.0 -70.0,31.0 -69.0,31.0</gml:coordinates>
+                </gml:LinearRing>
+              </gml:outerBoundaryIs>
+            </gml:Polygon>
+          </gml:polygonMember>
+        </gml:MultiPolygon>
+      </usa:the_geom>
+      <usa:NAME10>Test</usa:NAME10>
+      <usa:GEOID10>99</usa:GEOID10>
+      <usa:STUSPS10>ZZ</usa:STUSPS10>
+    </usa:states>
+  </wfs:Insert>
+</wfs:Transaction>
