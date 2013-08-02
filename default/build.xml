@@ -1,0 +1,27 @@
+<project name="default" default="build">
+  
+  <import file="${basedir}/../common.xml"/>
+
+  <property name="base_url" value="http://www.nacis.org/naturalearth/50m/cultural"/>
+  <property name="cntry_zip" value="ne_50m_admin_0_countries.zip"/>
+
+  <property name="ws_dir" value="workspaces/opengeo"/>
+  
+  <target name="build" depends="build-dejavu-fonts">
+    <get src="${base_url}/${cntry_zip}" dest="${cntry_zip}" skipexisting="true"/>
+
+    <mkdir dir="${ws_dir}/data"/>
+    <unzip src="${cntry_zip}" dest="${ws_dir}/data"/>
+  </target>
+
+  <target name="clean" depends="clean-dejavu-fonts">
+     <delete dir="styles" failonerror="false"/>
+     <delete dir="${ws_dir}/data" failonerror="false"/>
+  </target>
+
+  <target name="purge" depends="purge-dejavu-fonts">
+     <delete>
+       <fileset dir="${basedir}" includes="*.zip"/>
+     </delete>
+  </target>
+</project>

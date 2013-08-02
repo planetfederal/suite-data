@@ -1,0 +1,7 @@
+<project name="suite-data">
+
+  <target name="build"/>
+  <target name="clean"/>
+  <target name="purge"/>
+
+</project>

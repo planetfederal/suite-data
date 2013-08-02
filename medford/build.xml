@@ -1,0 +1,30 @@
+<project name="medford" default="build">
+  
+  <import file="${basedir}/../common.xml"/>
+
+  <property name="base_url" value="http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m"/>
+  <property name="cul_zip" value="10m_cultural.zip"/>
+  <property name="ne1_zip" value="NE1_HR_LC_SR_W_DR.zip"/>
+
+  <property name="ws_dir" value="workspaces/ne"/>
+  
+  <target name="build">
+    <get src="${base_url}/cultural/${cul_zip}" dest="${cul_zip}" skipexisting="true"/>
+    <get src="${base_url}/raster/${ne1_zip}" dest="${ne1_zip}" skipexisting="true"/>
+
+    <mkdir dir="${ws_dir}/data"/>
+    <unzip src="${cul_zip}" dest="${ws_dir}/data"/>
+    <unzip src="${ne1_zip}" dest="${ws_dir}/data"/>
+  </target>
+
+  <target name="clean" >
+     <delete dir="styles"/>
+     <delete dir="${ws_dir}/data"/>
+  </target>
+
+  <target name="purge" >
+     <delete>
+       <fileset dir="${basedir}" includes="*.zip"/>
+     </delete>
+  </target>
+</project>

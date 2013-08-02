@@ -1,0 +1,8 @@
+# Post Build Setup
+
+Additional configuration must be performed before this data pack is useable. 
+The following manual tasks must be performed:
+
+* Load OSM data into a PostGIS database with the osm2pgsql tool
+* Update `workspaces/osm/osm_pg/datastore.xml` and change the 
+  necessary database connection parameters

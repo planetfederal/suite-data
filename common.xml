@@ -1,0 +1,37 @@
+<project name="suite-data">
+
+  <property name="dejavu_ver" value="2.33"/>
+  <property name="dejavu_dir" value="dejavu-fonts-ttf-${dejavu_ver}"/>
+  <property name="dejavu_zip" value="${dejavu_dir}.zip"/>
+
+
+  <target name="build-dejavu-fonts">
+    <mkdir dir="styles"/>
+    <get src="http://sourceforge.net/projects/dejavu/files/dejavu/${dejavu_ver}/${dejavu_zip}" dest="${dejavu_zip}" skipexisting="true"/>
+
+    <delete dir="${dejavu_dir}"/>
+    <unzip src="${dejavu_zip}" dest="${basedir}"/>
+
+    <move todir="styles">
+      <fileset dir="${dejavu_dir}/ttf" includes="*.ttf"/>
+    </move>
+  </target>
+
+  <target name="clean-dejavu-fonts">
+    <delete dir="${dejavu_dir}"/>
+    <delete failonerror="false">
+      <fileset dir="styles" includes="DejaVu*.ttf"/>
+    </delete>
+  </target>
+
+  <target name="purge-dejavu-fonts">
+    <delete file="${dejavu_zip}"/>
+  </target>
+
+  <target name="readme">
+    <concat>
+      <fileset dir="." includes="README"/>
+    </concat>
+  </target>
+
+</project>
