@@ -14,6 +14,6 @@
  <groupId>org.opengeo.data</groupId>
  <artifactId>default</artifactId>
  <packaging>jar</packaging>
- <name>Default Data Pack</name>
+ <name>Default</name>
 
 </project>

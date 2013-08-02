@@ -14,6 +14,6 @@
  <groupId>org.opengeo.data</groupId>
  <artifactId>medford</artifactId>
  <packaging>jar</packaging>
- <name>Medford Data Pack</name>
+ <name>Medford</name>
 
 </project>
