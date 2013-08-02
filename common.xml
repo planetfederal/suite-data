@@ -34,4 +34,12 @@
     </concat>
   </target>
 
+   <target name="default-assemble">
+    <mkdir dir="target"/>
+    <zip destfile="target/${ant.project.name}.zip">
+      <fileset dir="." includes="styles/**"/>
+      <fileset dir="." includes="workspaces/**"/>
+    </zip>
+  </target>
+
 </project>

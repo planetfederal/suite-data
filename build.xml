@@ -3,5 +3,6 @@
   <target name="build"/>
   <target name="clean"/>
   <target name="purge"/>
+  <target name="assemble"/>
 
 </project>

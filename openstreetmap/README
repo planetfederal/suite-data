@@ -1,8 +1,17 @@
 # Post Build Setup
 
-Additional configuration must be performed before this data pack is useable. 
-The following manual tasks must be performed:
+Additional configuration must be performed before this data pack 
+is useable. The following manual tasks must be performed:
 
-* Load OSM data into a PostGIS database with the osm2pgsql tool
+* Load OSM data into a PostGIS database with the osm2pgsql tool. 
+
+* Run the SQL scripts under `workspaces/osm` in the following order:
+
+  1. split_tables.sql - Split the raw planetosm tables into 
+     multiple tables based on theme/layer
+  2. populate_geometry_columns.sql - Creates the geometry_columns
+     entries for the new tables. Only necessary for PostGIS < 2.0
+  3. create_indexes.sql  - Create the required table indicies 
+
 * Update `workspaces/osm/osm_pg/datastore.xml` and change the 
   necessary database connection parameters

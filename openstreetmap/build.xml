@@ -46,4 +46,6 @@
      </delete>
   </target>
 
+  <target name="assemble" depends="default-assemble"/>
+
 </project>

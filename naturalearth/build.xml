@@ -49,4 +49,7 @@
        <fileset dir="${basedir}" includes="*.zip"/>
      </delete>
   </target>
+
+  <target name="assemble" depends="default-assemble"/>
+
 </project>
