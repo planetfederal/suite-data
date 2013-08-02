@@ -1,0 +1,17 @@
+<dataStore>
+  <id>DataStoreInfoImpl--70b8c82e:12647524774:-7ffe</id>
+  <name>states_shp</name>
+  <description>Polygons of USA states by population</description>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--70b8c82e:12647524774:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="namespace">http://usa.opengeo.org</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">true</entry>
+    <entry key="url">file:workspaces/usa/data/states.shp</entry>
+    <entry key="charset">ISO-8859-1</entry>
+  </connectionParameters>
+</dataStore>

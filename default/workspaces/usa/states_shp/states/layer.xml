@@ -1,0 +1,16 @@
+<layer>
+  <name>states</name>
+  <id>LayerInfoImpl--70b8c82e:12647524774:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5dc7be08:1264c61490f:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--70b8c82e:12647524774:-7ffd</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

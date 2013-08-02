@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--70b8c82e:12647524774:-7ffd</id>
+  <name>states</name>
+  <nativeName>states</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--70b8c82e:12647524774:-7fff</id>
+  </namespace>
+  <title>States, USA - Population</title>
+  <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
+  DATUM[&quot;WGS_1984&quot;, 
+    SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Lon&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-124.731</minx>
+    <maxx>-66.97</maxx>
+    <miny>24.956</miny>
+    <maxy>49.372</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-124.731</minx>
+    <maxx>-66.97</maxx>
+    <miny>24.956</miny>
+    <maxy>49.372</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--70b8c82e:12647524774:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

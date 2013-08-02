@@ -1,13 +1,14 @@
 <featureType>
   <id>FeatureTypeInfoImpl--3a33e7d0:1400d3d823c:-7fe0</id>
-  <name>ne_50m_admin_0_countries</name>
-  <nativeName>ne_50m_admin_0_countries</nativeName>
+  <name>countries</name>
+  <nativeName>countries</nativeName>
   <namespace>
     <id>NamespaceInfoImpl--3a33e7d0:1400d3d823c:-7fe5</id>
   </namespace>
   <title>ne_50m_admin_0_countries</title>
   <keywords>
     <string>ne_50m_admin_0_countries</string>
+    <string>countries</string>
     <string>features</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
