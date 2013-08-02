@@ -2,16 +2,22 @@
   <id>DataStoreInfoImpl--70b8c82e:12647524774:-7ffe</id>
   <name>states_shp</name>
   <description>Polygons of USA states by population</description>
-  <type>Shapefile</type>
+  <type>Directory of spatial files (shapefiles)</type>
   <enabled>true</enabled>
   <workspace>
     <id>WorkspaceInfoImpl--70b8c82e:12647524774:-8000</id>
   </workspace>
   <connectionParameters>
-    <entry key="namespace">http://usa.opengeo.org</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">America/Vancouver</entry>
+    <entry key="fstype">shape-ng</entry>
     <entry key="create spatial index">true</entry>
-    <entry key="memory mapped buffer">true</entry>
-    <entry key="url">file:workspaces/usa/data/states.shp</entry>
     <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:workspaces/usa/data</entry>
+    <entry key="namespace">http://census.gov</entry>
   </connectionParameters>
+  <__default>false</__default>
 </dataStore>

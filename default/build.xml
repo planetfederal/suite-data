@@ -27,17 +27,23 @@
     <exec command="ogr2ogr" dir="${us_dir}/data">
       <arg value="-t_srs"/>
       <arg value="epsg:4326"/>
+      <arg value="-sql"/>
+      <arg value="SELECT * FROM ${state} WHERE NAME10 != &quot;Alaska&quot;"/>
       <arg value="states.shp"/>
+      <arg value="${state}.shp"/>
+    </exec>
+    <exec command="ogr2ogr" dir="${us_dir}/data">
+      <arg value="-t_srs"/>
+      <arg value="epsg:3338"/>
+      <arg value="-sql"/>
+      <arg value="SELECT * FROM ${state} WHERE NAME10 = &quot;Alaska&quot;"/>
+      <arg value="alaska.shp"/>
       <arg value="${state}.shp"/>
     </exec>
     <delete>
        <fileset dir="${us_dir}/data" includes="${state}.*"/>
     </delete>
-    <!--move todir="${us_dir}/data">    
-      <fileset dir="${us_dir}/data" includes="*"/>
-      <mapper type="regexp" from="^.*\.(.*)$$" to="states.\1"/> 
-    </move-->
-    
+
   </target>
 
   <target name="clean" depends="clean-dejavu-fonts">
