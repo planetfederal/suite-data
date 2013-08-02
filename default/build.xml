@@ -24,10 +24,19 @@
 
     <mkdir dir="${us_dir}/data"/>
     <unzip src="${state_zip}" dest="${us_dir}/data"/>
-    <move todir="${us_dir}/data">    
+    <exec command="ogr2ogr" dir="${us_dir}/data">
+      <arg value="-t_srs"/>
+      <arg value="epsg:4326"/>
+      <arg value="states.shp"/>
+      <arg value="${state}.shp"/>
+    </exec>
+    <delete>
+       <fileset dir="${us_dir}/data" includes="${state}.*"/>
+    </delete>
+    <!--move todir="${us_dir}/data">    
       <fileset dir="${us_dir}/data" includes="*"/>
       <mapper type="regexp" from="^.*\.(.*)$$" to="states.\1"/> 
-    </move>
+    </move-->
     
   </target>
 
