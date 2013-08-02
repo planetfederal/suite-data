@@ -5,28 +5,45 @@
   <namespace>
     <id>NamespaceInfoImpl--70b8c82e:12647524774:-7fff</id>
   </namespace>
-  <title>States, USA - Population</title>
+  <title>States of the USA</title>
+  <abstract>States of the United Stats of America minus Alaska, including the District of Columbia and Puerto Rico. Data taken from the 2010 Census.</abstract>
+  <keywords>
+    <string>states</string>
+    <string>census</string>
+  </keywords>
   <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
   DATUM[&quot;WGS_1984&quot;, 
     SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
   PRIMEM[&quot;Greenwich&quot;, 0.0], 
   UNIT[&quot;degree&quot;, 0.017453292519943295], 
-  AXIS[&quot;Lon&quot;, EAST], 
+  AXIS[&quot;Longitude&quot;, EAST], 
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-124.731</minx>
-    <maxx>-66.97</maxx>
-    <miny>24.956</miny>
-    <maxy>49.372</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-178.44359299999996</minx>
+    <maxx>-65.16850299999999</maxx>
+    <miny>17.831509000000036</miny>
+    <maxy>49.38435800000008</maxy>
+    <crs>GEOGCS[&quot;GCS_WGS_1984&quot;, 
+  DATUM[&quot;D_WGS_1984&quot;, 
+    SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-124.731</minx>
-    <maxx>-66.97</maxx>
-    <miny>24.956</miny>
-    <maxy>49.372</maxy>
-    <crs>EPSG:4326</crs>
+    <minx>-178.44359299999996</minx>
+    <maxx>-65.16850299999999</maxx>
+    <miny>17.831509000000036</miny>
+    <maxy>49.38435800000008</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>

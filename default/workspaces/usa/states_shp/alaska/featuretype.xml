@@ -1,0 +1,80 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--571a649c:1403f8e6984:-7fe8</id>
+  <name>alaska</name>
+  <nativeName>alaska</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--70b8c82e:12647524774:-7fff</id>
+  </namespace>
+  <title>Alaska, USA</title>
+  <abstract>The state of Alaska. Data taken from the 2010 Census.</abstract>
+  <keywords>
+    <string>alaska</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;NAD83_Alaska_Albers&quot;, 
+  GEOGCS[&quot;GCS_North_American_1983&quot;, 
+    DATUM[&quot;D_North_American_1983&quot;, 
+      SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH]], 
+  PROJECTION[&quot;Albers_Conic_Equal_Area&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, -154.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 50.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, 55.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, 65.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:3338</srs>
+  <nativeBoundingBox>
+    <minx>-2175729.7316224016</minx>
+    <maxx>1492641.2479252303</maxx>
+    <miny>404545.1079152834</miny>
+    <maxy>2383909.6601142436</maxy>
+    <crs class="projected">PROJCS[&quot;NAD83_Alaska_Albers&quot;, 
+  GEOGCS[&quot;GCS_North_American_1983&quot;, 
+    DATUM[&quot;D_North_American_1983&quot;, 
+      SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Longitude&quot;, EAST], 
+    AXIS[&quot;Latitude&quot;, NORTH]], 
+  PROJECTION[&quot;Albers_Conic_Equal_Area&quot;], 
+  PARAMETER[&quot;central_meridian&quot;, -154.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 50.0], 
+  PARAMETER[&quot;standard_parallel_1&quot;, 55.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, 65.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH]]</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>49.05506717620179</miny>
+    <maxy>71.31846463915359</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--70b8c82e:12647524774:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

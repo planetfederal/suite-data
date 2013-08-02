@@ -1,0 +1,15 @@
+<layer>
+  <name>alaska</name>
+  <id>LayerInfoImpl--571a649c:1403f8e6984:-7fe7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5dc7be08:1264c61490f:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--571a649c:1403f8e6984:-7fe8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
