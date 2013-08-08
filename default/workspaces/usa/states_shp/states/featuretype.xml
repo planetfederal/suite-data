@@ -6,7 +6,7 @@
     <id>NamespaceInfoImpl--70b8c82e:12647524774:-7fff</id>
   </namespace>
   <title>States of the USA</title>
-  <abstract>States of the United Stats of America minus Alaska, including the District of Columbia and Puerto Rico. Data taken from the 2010 Census.</abstract>
+  <abstract>States of the United Stats of America, including the District of Columbia and Puerto Rico. Data taken from the 2010 Census.</abstract>
   <keywords>
     <string>states</string>
     <string>census</string>
@@ -20,10 +20,10 @@
   AXIS[&quot;Geodetic latitude&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-178.44359299999996</minx>
-    <maxx>-65.16850299999999</maxx>
+    <minx>-179.23023299999997</minx>
+    <maxx>-65.16882499999997</maxx>
     <miny>17.831509000000036</miny>
-    <maxy>49.38435800000008</maxy>
+    <maxy>71.437769</maxy>
     <crs>GEOGCS[&quot;GCS_WGS_1984&quot;, 
   DATUM[&quot;D_WGS_1984&quot;, 
     SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
@@ -33,10 +33,10 @@
   AXIS[&quot;Latitude&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-178.44359299999996</minx>
-    <maxx>-65.16850299999999</maxx>
+    <minx>-179.23023299999997</minx>
+    <maxx>-65.16882499999997</maxx>
     <miny>17.831509000000036</miny>
-    <maxy>49.38435800000008</maxy>
+    <maxy>71.437769</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
