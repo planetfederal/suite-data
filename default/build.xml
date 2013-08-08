@@ -7,6 +7,7 @@
   <property name="cntry_zip" value="ne_50m_admin_0_countries.zip"/>
   <property name="state" value="State_2010Census_DP1"/>
   <property name="state_zip" value="${state}.zip"/>
+  <property name="state_atts" value="GEOID10,STUSPS10,NAME10,ALAND10,AWATER10,DP0010001,DP0010020,DP0010039"/>
 
   <property name="og_dir" value="workspaces/opengeo"/>
   <property name="us_dir" value="workspaces/usa"/>
@@ -27,6 +28,10 @@
     <exec command="ogr2ogr" dir="${us_dir}/data">
       <arg value="-t_srs"/>
       <arg value="epsg:4326"/>
+      <arg value="-simplify"/>
+      <arg value="0.01"/>
+      <arg value="-select"/>
+      <arg value="${state_atts}"/>
       <arg value="-sql"/>
       <arg value="SELECT * FROM ${state} WHERE NAME10 != &quot;Alaska&quot;"/>
       <arg value="states.shp"/>
@@ -35,6 +40,10 @@
     <exec command="ogr2ogr" dir="${us_dir}/data">
       <arg value="-t_srs"/>
       <arg value="epsg:3338"/>
+      <arg value="-simplify"/>
+      <arg value="0.01"/>
+      <arg value="-select"/>
+      <arg value="${state_atts}"/>
       <arg value="-sql"/>
       <arg value="SELECT * FROM ${state} WHERE NAME10 = &quot;Alaska&quot;"/>
       <arg value="alaska.shp"/>
