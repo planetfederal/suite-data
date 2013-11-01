@@ -41,7 +41,9 @@
   </target>
 
   <target name="clean" depends="clean-dejavu-fonts">
-     <delete dir="styles" failonerror="false"/>
+     <delete>
+       <fileset dir="styles" includes="*.ttf"/>
+     </delete>
      <delete dir="${og_dir}/data" failonerror="false"/>
      <delete dir="${us_dir}/data" failonerror="false"/>
   </target>
