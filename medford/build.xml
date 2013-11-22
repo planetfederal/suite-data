@@ -2,8 +2,8 @@
   
   <import file="${basedir}/../common.xml"/>
 
-  <property name="base_url" value="http://data.opengeo.org/suite"/>
-  <property name="med_zip" value="medford_shapes.zip"/>
+  <property name="base_url" value="http://data.opengeo.org/medford"/>
+  <property name="med_zip" value="medford_data.zip"/>
 
   <property name="ws_dir" value="workspaces/medford"/>
   
