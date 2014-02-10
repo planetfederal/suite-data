@@ -1,0 +1,15 @@
+<layer>
+  <name>lakes_north_america</name>
+  <id>LayerInfoImpl--19bc70b:1441ca3147a:-7d52</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--19bc70b:1441ca3147a:-7d51</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--19bc70b:1441ca3147a:-7d53</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

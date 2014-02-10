@@ -3,8 +3,12 @@
   <import file="${basedir}/../common.xml"/>
 
   <property name="base_url" value="http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m"/>
+
   <property name="cul" value="10m_cultural"/>
   <property name="cul_zip" value="${cul}.zip"/>
+
+  <property name="phy" value="10m_physical"/>
+  <property name="phy_zip" value="${phy}.zip"/>
 
   <property name="ne1" value="NE1_HR_LC_SR_W_DR"/>
   <property name="ne1_zip" value="${ne1}.zip"/>
@@ -13,16 +17,25 @@
   
   <target name="build" depends="build-dejavu-fonts">
     <get src="${base_url}/cultural/${cul_zip}" dest="${cul_zip}" skipexisting="true"/>
+    <get src="${base_url}/physical/${phy_zip}" dest="${phy_zip}" skipexisting="true"/>
     <get src="${base_url}/raster/${ne1_zip}" dest="${ne1_zip}" skipexisting="true"/>
 
     <delete dir="tmp"/>
     <mkdir dir="tmp"/>
 
     <mkdir dir="${ws_dir}/data/${cul}"/>
+    <mkdir dir="${ws_dir}/data/${phy}"/>
 
     <unzip src="${cul_zip}" dest="tmp"/>
     <move todir="${ws_dir}/data/${cul}">
       <fileset dir="tmp/${cul}"/>
+      <mapper type="regexp" from="ne_10m_(.*)" to="\1"/>
+    </move>
+
+    <mkdir dir="tmp/${phy}"/>
+    <unzip src="${phy_zip}" dest="tmp/${phy}"/>
+    <move todir="${ws_dir}/data/${phy}">
+      <fileset dir="tmp/${phy}"/>
       <mapper type="regexp" from="ne_10m_(.*)" to="\1"/>
     </move>
     
