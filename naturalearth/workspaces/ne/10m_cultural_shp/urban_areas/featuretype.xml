@@ -1,16 +1,15 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-188a65d5:13b428df251:-7fe6</id>
-  <name>ne_10m_admin_0_countries</name>
-  <nativeName>ne_10m_admin_0_countries</nativeName>
+  <id>FeatureTypeInfoImpl-22fbaf6d:14404870a99:-7fec</id>
+  <name>urban_areas</name>
+  <nativeName>urban_areas</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-188a65d5:13b428df251:-7fff</id>
   </namespace>
-  <title>Countries</title>
-  <description>Contents of file</description>
-  <abstract>The 247 countries in the world.</abstract>
+  <title>Urban Areas</title>
+  <abstract>Area of dense human habitation. Derived from 2002-2003 MODIS satellite data at 1 km resolution.</abstract>
   <keywords>
-    <string>ne_10m_admin_0_countries</string>
     <string>features</string>
+    <string>urban_areas</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
   DATUM[&quot;D_WGS_1984&quot;, 
@@ -21,10 +20,10 @@
   AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-179.99978348919961</minx>
-    <maxx>180.0000000000001</maxx>
-    <miny>-89.99982838943765</miny>
-    <maxy>83.63381093402974</maxy>
+    <minx>-157.99118261729797</minx>
+    <maxx>178.0338339830011</maxx>
+    <miny>-51.05303741160215</miny>
+    <maxy>69.76985509228818</maxy>
     <crs>GEOGCS[&quot;GCS_WGS_1984&quot;, 
   DATUM[&quot;D_WGS_1984&quot;, 
     SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
@@ -34,10 +33,10 @@
   AXIS[&quot;Latitude&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-179.99978348919961</minx>
-    <maxx>180.0000000000001</maxx>
-    <miny>-89.99982838943765</miny>
-    <maxy>83.63381093402974</maxy>
+    <minx>-157.99118261729797</minx>
+    <maxx>178.0338339830011</maxx>
+    <miny>-51.05303741160215</miny>
+    <maxy>69.76985509228818</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

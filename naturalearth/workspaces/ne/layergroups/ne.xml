@@ -1,31 +1,44 @@
 <layerGroup>
   <id>LayerGroupInfoImpl-188a65d5:13b428df251:-7fdf</id>
   <name>ne</name>
+  <mode>SINGLE</mode>
   <title>Natural Earth Base Map</title>
   <abstractTxt>Base map composed of data from http://www.naturalearthdata.com.</abstractTxt>
   <workspace>
     <id>WorkspaceInfoImpl-188a65d5:13b428df251:-8000</id>
   </workspace>
-  <layers>
-    <layer>
+  <publishables>
+    <published type="layer">
       <id>LayerInfoImpl-188a65d5:13b428df251:-7fe5</id>
-    </layer>
-    <layer>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-22fbaf6d:14404870a99:-7feb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-22fbaf6d:14404870a99:-7fe6</id>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl-188a65d5:13b428df251:-7fe7</id>
-    </layer>
-    <layer>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl-188a65d5:13b428df251:-7fe0</id>
-    </layer>
-    <layer>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl-188a65d5:13b428df251:-7fdd</id>
-    </layer>
-    <layer>
+    </published>
+    <published type="layer">
       <id>LayerInfoImpl--4d2d93b7:13b4425088e:-7f4f</id>
-    </layer>
-  </layers>
+    </published>
+  </publishables>
   <styles>
     <style>
       <id>StyleInfoImpl-188a65d5:13b428df251:-7fe4</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-22fbaf6d:14404870a99:-7fea</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-22fbaf6d:14404870a99:-7fe5</id>
     </style>
     <style/>
     <style/>

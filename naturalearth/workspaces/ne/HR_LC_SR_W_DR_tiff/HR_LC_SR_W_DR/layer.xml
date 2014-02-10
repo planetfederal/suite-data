@@ -1,9 +1,9 @@
 <layer>
-  <name>NE1_HR_LC_SR_W_DR</name>
+  <name>HR_LC_SR_W_DR</name>
   <id>LayerInfoImpl-93ed77b:13cd06842b3:-7fe4</id>
   <type>RASTER</type>
   <defaultStyle>
-    <id>StyleInfoImpl-93ed77b:13cd06842b3:-7ffd</id>
+    <id>StyleInfoImpl-37ab79a0:14407da93b3:-8000</id>
   </defaultStyle>
   <resource class="coverage">
     <id>CoverageInfoImpl-93ed77b:13cd06842b3:-7fe5</id>

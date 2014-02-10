@@ -1,16 +1,16 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--4d2d93b7:13b4425088e:-7f50</id>
-  <name>ne_10m_roads_north_america</name>
-  <nativeName>ne_10m_roads_north_america</nativeName>
+  <id>FeatureTypeInfoImpl-188a65d5:13b428df251:-7fde</id>
+  <name>populated_places</name>
+  <nativeName>populated_places</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-188a65d5:13b428df251:-7fff</id>
   </namespace>
-  <title>Roads North America</title>
+  <title>Populated Places</title>
   <description>Contents of file</description>
-  <abstract>Basic roads from CEC North America Environmental Atlas.</abstract>
+  <abstract>City and town points, from Tokyo to Wasilla, Cairo to Kandahar.</abstract>
   <keywords>
+    <string>populated_places</string>
     <string>features</string>
-    <string>ne_10m_roads_north_america</string>
   </keywords>
   <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
   DATUM[&quot;D_WGS_1984&quot;, 
@@ -21,10 +21,10 @@
   AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-176.7640084731439</minx>
-    <maxx>-52.64725244187383</maxx>
-    <miny>14.590750676565</miny>
-    <maxy>70.2966838677457</maxy>
+    <minx>-179.58997888396897</minx>
+    <maxx>179.38330358817018</maxx>
+    <miny>-89.98289386134616</miny>
+    <maxy>82.48332318035943</maxy>
     <crs>GEOGCS[&quot;GCS_WGS_1984&quot;, 
   DATUM[&quot;D_WGS_1984&quot;, 
     SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
@@ -34,10 +34,10 @@
   AXIS[&quot;Latitude&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-176.7640084731439</minx>
-    <maxx>-52.64725244187383</maxx>
-    <miny>14.590750676565</miny>
-    <maxy>70.2966838677457</maxy>
+    <minx>-179.58997888396897</minx>
+    <maxx>179.38330358817018</maxx>
+    <miny>-89.98289386134616</miny>
+    <maxy>82.48332318035943</maxy>
     <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
   DATUM[&quot;WGS84&quot;, 
     SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 

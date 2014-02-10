@@ -3,7 +3,8 @@
   <import file="${basedir}/../common.xml"/>
 
   <property name="base_url" value="http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m"/>
-  <property name="cul_zip" value="10m_cultural.zip"/>
+  <property name="cul" value="10m_cultural"/>
+  <property name="cul_zip" value="${cul}.zip"/>
 
   <property name="ne1" value="NE1_HR_LC_SR_W_DR"/>
   <property name="ne1_zip" value="${ne1}.zip"/>
@@ -14,21 +15,30 @@
     <get src="${base_url}/cultural/${cul_zip}" dest="${cul_zip}" skipexisting="true"/>
     <get src="${base_url}/raster/${ne1_zip}" dest="${ne1_zip}" skipexisting="true"/>
 
-    <mkdir dir="${ws_dir}/data"/>
-    <unzip src="${cul_zip}" dest="${ws_dir}/data"/>
-    <unzip src="${ne1_zip}" dest="${ws_dir}/data"/>
+    <delete dir="tmp"/>
+    <mkdir dir="tmp"/>
 
-    <delete>
+    <mkdir dir="${ws_dir}/data/${cul}"/>
+
+    <unzip src="${cul_zip}" dest="tmp"/>
+    <move todir="${ws_dir}/data/${cul}">
+      <fileset dir="tmp/${cul}"/>
+      <mapper type="regexp" from="ne_10m_(.*)" to="\1"/>
+    </move>
+    
+    <unzip src="${ne1_zip}" dest="tmp"/>
+
+    <!--delete>
       <fileset dir="${ws_dir}/data" includes="*.tiff"/>
-    </delete>
+    </delete-->
 
-    <exec command="gdal_translate" dir="${ws_dir}/data">
+    <exec command="gdal_translate" dir="tmp">
       <arg value="-co"/>
       <arg value="TILED=yes"/>
       <arg value="${ne1}.tif"/>
       <arg value="${ne1}.tiff"/>
     </exec>
-    <exec command="gdaladdo" dir="${ws_dir}/data">
+    <exec command="gdaladdo" dir="tmp">
       <arg value="-r"/>
       <arg value="gauss"/>
       <arg value="${ne1}.tiff"/>
@@ -37,9 +47,16 @@
       <arg value="8"/>
       <arg value="16"/>
     </exec>
+    <move todir="${ws_dir}/data">
+      <fileset dir="tmp">
+        <include name="${ne1}.tiff"/>
+      </fileset>
+      <mapper type="regexp" from="NE1_(.*)" to="\1"/>
+    </move>
   </target>
 
   <target name="clean" depends="clean-dejavu-fonts">
+     <delete dir="tmp"/>
      <delete dir="styles"/>
      <delete dir="${ws_dir}/data"/>
   </target>

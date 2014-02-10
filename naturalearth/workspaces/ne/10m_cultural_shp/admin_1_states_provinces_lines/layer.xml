@@ -1,12 +1,12 @@
 <layer>
-  <name>ne_10m_populated_places</name>
-  <id>LayerInfoImpl-188a65d5:13b428df251:-7fdd</id>
+  <name>admin_1_states_provinces_lines_shp</name>
+  <id>LayerInfoImpl-188a65d5:13b428df251:-7fe0</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-188a65d5:13b428df251:-7fdc</id>
+    <id>StyleInfoImpl-188a65d5:13b428df251:-7fd9</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-188a65d5:13b428df251:-7fde</id>
+    <id>FeatureTypeInfoImpl-188a65d5:13b428df251:-7fe1</id>
   </resource>
   <enabled>true</enabled>
   <attribution>

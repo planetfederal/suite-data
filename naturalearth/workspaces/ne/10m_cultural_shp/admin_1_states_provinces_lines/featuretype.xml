@@ -1,0 +1,59 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-188a65d5:13b428df251:-7fe1</id>
+  <name>admin_1_states_provinces_lines_shp</name>
+  <nativeName>admin_1_states_provinces_lines_shp</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-188a65d5:13b428df251:-7fff</id>
+  </namespace>
+  <title>State Boundaries</title>
+  <description>Contents of file</description>
+  <abstract>Internal administrative boundaries.</abstract>
+  <keywords>
+    <string>features</string>
+    <string>admin_1_states_provinces_lines_shp</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GCS_WGS_1984&quot;, 
+  DATUM[&quot;D_WGS_1984&quot;, 
+    SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-139.04719194227846</minx>
+    <maxx>178.44862226797602</maxx>
+    <miny>-49.25074024841061</miny>
+    <maxy>81.13822602001464</maxy>
+    <crs>GEOGCS[&quot;GCS_WGS_1984&quot;, 
+  DATUM[&quot;D_WGS_1984&quot;, 
+    SPHEROID[&quot;WGS_1984&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-139.04719194227846</minx>
+    <maxx>178.44862226797602</maxx>
+    <miny>-49.25074024841061</miny>
+    <maxy>81.13822602001464</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-188a65d5:13b428df251:-7fe9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
