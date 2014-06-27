@@ -19,7 +19,7 @@
           <Title>Population &lt; 2M</Title>
           <ogc:Filter>
             <ogc:PropertyIsLessThan>
-              <ogc:PropertyName>DP0010001</ogc:PropertyName>
+              <ogc:PropertyName>PERSONS</ogc:PropertyName>
               <ogc:Literal>2000000</ogc:Literal>
             </ogc:PropertyIsLessThan>
           </ogc:Filter>
@@ -38,7 +38,7 @@
           <Title>Population 2M-4M</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
-              <ogc:PropertyName>DP0010001</ogc:PropertyName>
+              <ogc:PropertyName>PERSONS</ogc:PropertyName>
               <ogc:LowerBoundary>
                 <ogc:Literal>2000000</ogc:Literal>
               </ogc:LowerBoundary>
@@ -62,7 +62,7 @@
           <Title>Population &gt; 4M</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
-              <ogc:PropertyName>DP0010001</ogc:PropertyName>
+              <ogc:PropertyName>PERSONS</ogc:PropertyName>
               <ogc:Literal>4000000</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
@@ -98,7 +98,7 @@
           
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>STUSPS10</ogc:PropertyName>
+              <ogc:PropertyName>STATE_ABBR</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>
@@ -127,7 +127,7 @@
 
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>NAME10</ogc:PropertyName>
+              <ogc:PropertyName>STATE_NAME</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">SansSerif</CssParameter>

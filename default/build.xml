@@ -8,7 +8,7 @@
   <property name="cntry_zip" value="ne_50m_admin_0_countries.zip"/>
   <property name="state" value="State_2010Census_DP1"/>
   <property name="state_zip" value="${state}.zip"/>
-  <property name="state_atts" value="GEOID10,STUSPS10,NAME10,ALAND10,AWATER10,DP0010001,DP0010020,DP0010039"/>
+  <property name="state_sql" value="SELECT STUSPS10 as STATE_ABBR, NAME10 as STATE_NAME, ALAND10 as AREA_LAND, AWATER10 as AREA_WATER, DP0010001 as PERSONS, DP0010020 as MALE, DP0010039 as FEMALE FROM ${state}"/>
 
   <property name="og_dir" value="workspaces/opengeo"/>
   <property name="us_dir" value="workspaces/usa"/>
@@ -30,7 +30,7 @@
       <arg line="-t_srs epsg:4326"/>
       <arg line="-simplify 0.01"/>
       <arg line="-clipdst -180 -90 0 90"/>
-      <arg line="-select ${state_atts}"/>
+      <arg line="-sql '${state_sql}'"/>
       <arg value="states.shp"/>
       <arg value="${state}.shp"/>
     </exec>
