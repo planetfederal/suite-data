@@ -15,7 +15,8 @@
 
   <property name="ws_dir" value="workspaces/ne"/>
   
-  <target name="build" depends="build-dejavu-fonts">
+  <target name="build" depends="build-dejavu-fonts"
+       description="Download from naturalearthdata.com">
     <get src="${base_url}/cultural/${cul_zip}" dest="${cul_zip}" skipexisting="true"/>
     <get src="${base_url}/physical/${phy_zip}" dest="${phy_zip}" skipexisting="true"/>
     <get src="${base_url}/raster/${ne1_zip}" dest="${ne1_zip}" skipexisting="true"/>
@@ -80,6 +81,6 @@
      </delete>
   </target>
 
-  <target name="assemble" depends="default-assemble"/>
-
+  <target name="assemble" depends="default-assemble"
+    description="Assemble zip for distribution"/>
 </project>

@@ -7,7 +7,8 @@
 
   <property name="ws_dir" value="workspaces/medford"/>
   
-  <target name="build">
+  <target name="build"
+     description="Download from data.opengeo.org/medford">
     <get src="${base_url}/${med_zip}" dest="${med_zip}" skipexisting="true"/>
 
     <mkdir dir="${ws_dir}/data"/>
@@ -25,6 +26,7 @@
      </delete>
   </target>
 
-  <target name="assemble" depends="default-assemble"/>
+  <target name="assemble" depends="default-assemble"
+    description="Assemble zip for distribution"/>
 
 </project>
