@@ -25,19 +25,28 @@
     </move>
 
     <mkdir dir="${us_dir}/data"/>
+    <delete>
+      <fileset dir="${us_dir}/data" includes="states.*"/>
+    </delete>
     <unzip src="${state_zip}" dest="${us_dir}/data"/>
-    <exec command="ogr2ogr" dir="${us_dir}/data" failonerror="true">
-      <arg line="-t_srs epsg:4326"/>
-      <arg line="-simplify 0.01"/>
-      <arg line="-clipdst -180 -90 0 90"/>
-      <arg line="-sql '${state_sql}'"/>
+    <exec executable="ogr2ogr" dir="${us_dir}/data" failonerror="true">
+      <arg value="-t_srs"/>
+         <arg value="epsg:4326"/>
+      <arg value="-simplify"/>
+         <arg value="0.01"/>
+      <arg value="-clipdst"/>
+         <arg value="-180"/>
+         <arg value="-90"/>
+         <arg value="0"/>
+         <arg value="90"/>
+      <arg value="-sql"/>
+         <arg value="${state_sql}"/>
       <arg value="states.shp"/>
       <arg value="${state}.shp"/>
     </exec>
     <delete>
        <fileset dir="${us_dir}/data" includes="${state}.*"/>
     </delete>
-
   </target>
 
   <target name="clean" depends="clean-dejavu-fonts">
