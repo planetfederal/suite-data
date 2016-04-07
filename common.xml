@@ -1,13 +1,13 @@
 <project name="suite-data">
 
-  <property name="dejavu_ver" value="2.33"/>
+  <property name="dejavu_ver" value="2.35"/>
+  <property name="dejavu_ver_url" value="2_35"/>
   <property name="dejavu_dir" value="dejavu-fonts-ttf-${dejavu_ver}"/>
   <property name="dejavu_zip" value="${dejavu_dir}.zip"/>
 
-
   <target name="build-dejavu-fonts">
     <mkdir dir="styles"/>
-    <get src="http://sourceforge.net/projects/dejavu/files/dejavu/${dejavu_ver}/${dejavu_zip}" dest="${dejavu_zip}" skipexisting="true"/>
+    <get src="https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_${dejavu_ver_url}/${dejavu_zip}" dest="${dejavu_zip}" skipexisting="true"/>
 
     <delete dir="${dejavu_dir}"/>
     <unzip src="${dejavu_zip}" dest="${basedir}"/>
