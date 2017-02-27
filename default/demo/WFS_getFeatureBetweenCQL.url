@@ -1,1 +1,1 @@
-wfs?request=GetFeature&typeName=usa:states&propertyName=NAME10,ALAND10,the_geom&CQL_FILTER=ALAND10%20BETWEEN%201E11%20AND%201.5E11&version=1.0.0
+wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=usa:states&propertyName=STATE_NAME,AREA_LAND,the_geom&CQL_FILTER=AREA_LAND%20BETWEEN%201E11%20AND%201.5E11
