@@ -4,10 +4,10 @@
 
   <!-- Note- static build files have been captured and provided in S3 Sysop Account -->
   <!--<property name="ne_base_url" value="http://naciscdn.org/naturalearth/50m/cultural/"/>-->
-  <property name="ne_base_url" value="https://s3.amazonaws.com/public-build-files/"/>
+  <property name="ne_base_url" value="https://s3.amazonaws.com/public-build-files"/>
   <!--property name="tg_base_url" value="http://www2.census.gov/geo/tiger/TIGER2010DP1"/-->
   <!--<property name="tg_base_url" value="http://data.opengeo.org"/>-->
-  <property name="tg_base_url" value="https://s3.amazonaws.com/public-build-files/"/>
+  <property name="tg_base_url" value="https://s3.amazonaws.com/public-build-files"/>
   <property name="cntry_zip" value="ne_50m_admin_0_countries.zip"/>
   <property name="state" value="State_2010Census_DP1"/>
   <property name="state_zip" value="${state}.zip"/>
